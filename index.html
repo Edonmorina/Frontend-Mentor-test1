@@ -3,30 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <img class="top"src="./images/bg-pattern-top.svg" alt="">
+  <img class="bottom"src="./images/bg-pattern-bottom.svg" alt="">
 
-  803K
-  Likes
+  <div class="master">
+    <div class="square"></div>
+    <div class="another">
+      <img class="person "src="./images/image-victor.jpg" alt="">
+      <div class="head">
+      <h2>
+        <span class="firstPart"><strong>Victor Crest</strong></span>
+        <span class="secondPart">26</span>
+      </h2>
+        
+        
+        <h3>London</h3>
+      </div>
 
-  1.4K
-  Photos
+
+        <div class="s_info">
+
+          <div>
+            <h1>80K</h1>
+            <h2 class="followers">Followers</h2>
+          </div>
+
+          <div>
+            <div class="like_num">
+            <h1>803K</h1>
+          </div>
+            <h2 class="likes">Likes</h2>
+          </div>
+
+          <div>
+            <h1>1.4K</h1>
+            <h2 >Photos</h2>
+          </div>
+          
+
+        
+
+      </div>
+    </div>
+
+
+</div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-EJjTW6PGG" target="_blank">Edon Morina</a>.
